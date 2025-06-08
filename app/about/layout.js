@@ -5,6 +5,7 @@ export const metadata = {
     description: "This is a blog about page",
 };
 
+
 export default function AboutLayout({ children }) {
     return (
         <div>

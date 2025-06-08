@@ -42,3 +42,8 @@ bun dev
  
 
  - loading e behind the sence react-sunpence use hoye ase. 
+
+ - data fetching and caching. 
+ - built in optimizaion on next.js are image optimization , font optimization etc. 
+
+- images  props list: https://nextjs.org/docs/app/api-reference/components/image#props 

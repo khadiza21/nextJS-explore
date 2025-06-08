@@ -1,5 +1,7 @@
 import Button from '@/app/components/Button'
+import Image from 'next/image'
 import React from 'react'
+import sunflower from "@/public/images/sunflower.png"
 
 export default function Mission() {
   return (
@@ -11,9 +13,9 @@ export default function Mission() {
                 consequatur cupiditate soluta aperiam eos voluptates.
             </div>
 
-            {/* <div className="w-[400px]">
-                <Image placeholder="blur" src={thumb} alt="Thumb image" />
-            </div> */}
+            <div className="w-[320px]">
+                <Image placeholder="blur" src={sunflower} alt="Sun Flower Image" />
+            </div>
 
             <Button />
         </main>
