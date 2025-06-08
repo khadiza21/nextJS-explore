@@ -32,3 +32,13 @@ bun dev
 
 * * Why not use a tag in here?
 - the behaviour of anchor tag when click here then  the page reload autometaca\lly but we want witout reload . so that instead of anchor tag use Link component with href . only when use external link then need to use anchor tag
+
+
+- jokhon akti route theke onno route e jawa hoi tokhon oi nidirsto route server theke fetch kore content niye ase. and cash o save kore rakhe . aksthe puro bundle data na ene route base data load koray onek fast and speed pawa jay. but jodi kono route onek heavey data hoi then akti loading ra\khte hobe fallba\ck loader hesebe. akti route er paser route ke age theke next js e prefetch kore rakhce. jodi prefetch false kroe rakha hoi then ati prefetch kore rakhe na. 
+
+- next js er error handling er jonno error.js file cteate kore document theke errror js code use korete hobe. a\i client side er folder hisebe use hoi. and ai error ta client ke dekhay. ai error handle er subida holo error dile user ke full app error na dekhiyo  nidirsto router er jonno error dkehay and onnano route e er sokol kaj kora jay. and set kora error text dekano jay user ke. error js file e eeror permeter ja oi folder er sob file er error khuje kono error pele errror parameter er maddome pass korebe. error parameter er sathe reset parameter o thake ja diye akti button er maddome click kore reset dewa hoi route ke karon onek somoy arokom onek error tahke jsa state related or others ja reset diley thik hoye jay. . 
+
+- not-found file er maddome custom design make kora jay notfound route er jonno. ata server side theke render hoye ase. 
+ 
+
+ - loading e behind the sence react-sunpence use hoye ase. 
