@@ -2,11 +2,20 @@
 
 import getPost from "@/lib/getPost";
 
+export async function generateMetadata({ params }) {
+    const { id } = params;
+    const post = await getPost(id);
+
+    return {
+        title: post.title,
+        description: post.body,
+    };
+}
 
 export default async function PostPage({ params }) {
     const { id } = params;
     const postPromise = getPost(id);
-  //  const commentsPromise = getPostComments(id);
+  const commentsPromise = getPostComments(id);
 
     // const [post, comments] = await Promise.all([postPromise, commentsPromise]);
     const post = await postPromise;
@@ -23,3 +32,10 @@ export default async function PostPage({ params }) {
     );
 }
 
+// export async function generateStaticParams() {
+//     const posts = await getAllPosts();
+
+//     return posts.map((post) => ({
+//         id: post.id.toString(),
+//     }));
+// }
