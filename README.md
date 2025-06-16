@@ -231,17 +231,17 @@ bun dev
 
 ## ✔ উপসংহার
 
-React.js শিখে শুরু করা ভালো, তবে একটি প্রফেশনাল IT কোম্পানির ব্র্যান্ড ওয়েবসাইট তৈরি করতে হলে **Next.js** সবচেয়ে ভালো পছন্দ। এটি শুধুমাত্র UI না, বরং full performance, SEO, scalability, এবং easy deployment support করে।
+একটি প্রফেশনাল IT কোম্পানির ব্র্যান্ড ওয়েবসাইট তৈরি করতে হলে **Next.js** সবচেয়ে ভালো পছন্দ। এটি শুধুমাত্র UI না, বরং full performance, SEO, scalability, এবং easy deployment support করে।
 
 > "A great product needs a great foundation — and for modern websites, Next.js is that foundation."
 
 ---
 
-## 📅 Stack Recommendation for IT Company Website
+## 📅 Stack  for IT Company Website
 
 * **Framework**: Next.js
 * **Styling**: Tailwind CSS
-* **Router**: App Router (Next.js 13+)
+* **Router**: App Router (Next.js 15)
 * **Hosting**: Vercel / Netlify
 * **Tools**: `next/image`, `next/font`, SEO meta, `loading.js`, `error.js`
 
